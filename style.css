@@ -1,0 +1,137 @@
+@font-face {
+	font-family: 'fira';
+	src:  url('FiraCode-Retina.ttf') format('ttf'),
+	local('FiraCode-Retina');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'fira';
+	src:  url('FiraCode-Light.ttf') format('ttf'),
+	local('FiraCode-Light');
+	font-style: normal;
+	font-weight: lighter;
+
+}
+
+
+html, body{
+	margin: 0;
+	padding: 0;
+	background-color: #141516;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+* {
+	font-family: 'fira';
+	font-weight: lighter;
+}
+
+#container {
+	position: absolute;
+	padding: 0 20px 0 20px;
+	top: 35%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: auto;
+}
+
+#header {
+	-webkit-box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-shadow: 1px 1px 20px 0px #000;
+	box-shadow: 1px 1px 20px 0px #000;
+	background-color: #282a36;
+	margin: 4px;
+	padding: 8px;
+	border: 5px solid #282a36;
+}
+
+
+#links {
+	display: -moz-box;
+	display: -webkit-box;
+	width: 100%;
+}
+
+.linksbox {
+	-webkit-box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-shadow: 1px 1px 20px 0px #000;
+	box-shadow: 1px 1px 20px 0px #000;
+	-moz-box-flex: 1;
+	-webkit-box-flex: 1;
+	margin: 4px;
+	padding: 8px 8px 8px 8px;
+	background-color: #282a36;
+	border: 5px solid #282a36;
+}
+
+.linksbox h3 {
+	padding-bottom: 5px;
+}
+
+.linksbox a{
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.linksbox a.cyan:hover {
+	color: #4babdb;
+	text-decoration: underline;
+}
+
+.linksbox a.red:hover {
+	color: #ff5c57;
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 14px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.cyan {
+	color: #9aedfe;
+	padding: 0;
+}
+
+.blue {
+	color: #57c7ff;
+	padding: 0;
+}
+
+.green {
+	font-weight: bold;
+	padding: 0;
+	color: #5af78e;
+}
+
+.pink {
+	padding: 0;
+	color: #ff6ac1;
+}
+
+.red {
+	padding: 0;
+	color: #ff5c57;
+}
+
+form {
+	display: inline;
+}
+
+input 	{
+	display: inline;
+	background: none;
+	display: inline;
+	border: none;
+	color: #FFF;
+	width: 70%;
+	font-size: 14px;
+}
