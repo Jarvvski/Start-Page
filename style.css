@@ -24,7 +24,7 @@ html, body{
 }
 
 * {
-	font-family: 'fira';
+	font-family: 'Roboto Mono Medium';
 	font-weight: lighter;
 }
 
@@ -122,7 +122,17 @@ h3 {
 	color: #ff5c57;
 }
 
-form {
+.orange {
+	padding: 0;
+	color: #e17107;
+}
+
+.white {
+	padding: 0;
+	color: #fcfcfc;
+}
+
+form, iframe {
 	display: inline;
 }
 
