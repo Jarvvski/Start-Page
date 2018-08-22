@@ -15,12 +15,15 @@
 }
 
 
-html, body{
+html, body {
   margin: 0;
   padding: 0;
-  background-color: #141516;
   color: #FFFFFF;
+  background-color: #333333;
   font-size: 14px;
+  display: flex;
+  flex: 1;
+  height: 100%;
 }
 
 * {
@@ -28,14 +31,22 @@ html, body{
   font-weight: lighter;
 }
 
+body {
+  background: url(boognishDarkRight.png) center center no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+#fouc {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
 #container {
-  position: absolute;
   padding: 0 20px 0 20px;
-  top: 35%;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
   width: 940px;
   height: auto;
 }
